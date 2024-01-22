@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado em meu próprio servidor</p>
+
+    <p>Esse formato abaixo consomem muito tráfico de dados, e isso pode prejudicar bastante o seu cliente, pois ficará muito caro para ele</p>
+    <video width="500" poster="imagens/pexels-aleksandar-pasaric-2707756.jpg" controls loop>
+        <source src="midia/meu-video1.mp4" type="video/mp4">
+        <source src="midia/meu-video2.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com vídeos em formato mp4 e webm</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Essa forma utiliza vídeos de um site externo, como no caso o Youtube, ou seja, não tem nenhum prejuízo para o cliente</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K_UjGhSWKZM?si=n70mo2vU3o1u8cjT" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/345236618?h=6d2eeb45bf&color=ff0179&portrait=0" width="560" height="315" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/345236618">IRUDIKA 2019</a> from <a href="https://vimeo.com/user37238826">Genis Rigol</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+</body>
+</html>
